@@ -1,0 +1,8 @@
+[package]
+name = "renovate-rustls-repro"
+version = "0.0.0"
+edition = "2021"
+description = "Minimal reproduction: Renovate does not pick up release notes for rustls `v/x.y.z` tags"
+
+[dependencies]
+rustls = "=0.23.43"
